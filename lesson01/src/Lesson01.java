@@ -7,12 +7,20 @@ public class Lesson01 {
         int wiek = new Scanner(System.in).nextInt();
         System.out.println("Twoj wiek to: " + wiek);
 
+        if (wiek < 0) return;
+        if (wiek > 100) return;
+        {
+            // System.out.println("Wiek mniejszy niż zero");
+            //System.out.println("Nie rob tak");
+           // return;
+        }
+
         if ((wiek > 0) && (wiek < 20)) {
             System.out.println("Jestes mlody");
         } else if (wiek >= 20) {
             System.out.println("Jestes w srdnim wikeu lub stary");
-        } else {
-            System.out.println("Wprowadziles zly wiek");
+        } //else {
+           // System.out.println("Wprowadziles zly wiek");
         }
     }
 }

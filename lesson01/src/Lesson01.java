@@ -10,9 +10,9 @@ public class Lesson01 {
         if (wiek < 0) return;
         if (wiek > 100) return;
         {
-            // System.out.println("Wiek mniejszy niż zero");
-            //System.out.println("Nie rob tak");
-           // return;
+//             System.out.println("Wiek mniejszy niż zero");
+//            System.out.println("Nie rob tak");
+//            return;
         }
 
         if ((wiek > 0) && (wiek < 20)) {
@@ -23,4 +23,4 @@ public class Lesson01 {
            // System.out.println("Wprowadziles zly wiek");
         }
     }
-}
+

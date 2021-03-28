@@ -3,7 +3,7 @@ public class Lesson3 {
     public static void main(String[] args) {
         int x = 0;
 
-        //petla while
+//        petla while
 //        while(x < 4) {
 //            System.out.print("*");
 //            x += 1;

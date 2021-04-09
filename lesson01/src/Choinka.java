@@ -4,7 +4,7 @@ import java.util.Scanner;
 // 2:   ***
 // 3:  *****
 // 4: *******
-public class Zad5 {
+public class Choinka {
     public static void main(String[] args) {
         System.out.println("Podaj liczbe rzedow");
         int rows = new Scanner(System.in).nextInt();

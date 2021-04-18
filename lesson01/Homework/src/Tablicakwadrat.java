@@ -5,8 +5,7 @@ public class Tablicakwadrat {
         int len = tab.length;
         int x = 1;
         for (int i = 0; i < len; i ++){
-            tab[i] = x;
-            x +=1;
+            tab[i] = i + 1;
         }
         System.out.print("tablica:{");
 
